@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: staging
+    database: news-engagement-on-media
+    schema: project
+
+      # loaded_at_field: record_loaded_at
+    tables:
+      - name: news_dataset
+      - name: words_frequency 
