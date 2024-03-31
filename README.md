@@ -28,8 +28,8 @@ I started developing the pipleines I needed in Mage locally. I develloped two pi
 
   I used this pipline to, first, load the original dataset, named "news_dataset", to GCS, and, second, create a new dataset, named "words_frequency", then load it to GCS as well.
 
-  I created the wors_frquency dataset from the corpus of all text in the datasets, after filtiring out stopwords and punction using NLTK datasets. However, I acknowldge that news_frequency dataset   
-  requires more filtering, which I didn't proritize for this project given the limited time.
+  I created the wors_frquency dataset from the corpus of all text in the datasets, after filtiring out stopwords and punction using NLTK datasets. However, the dataset   
+  requires more curation which I couldn't prioritize given limited time.
 
   
 
