@@ -19,7 +19,7 @@ For the sake of this project, and for ease of access to this data without using 
 
 I started the porject with a small data exploration exercise locally in Jupyter Notebook: https://github.com/khalileldoau/global-news-engagement-on-social-media/blob/main/datasets-exploration/data-exploration.ipynb
 
-After I decided on how my dashboard would look like and what data transformations to do, what technologies to use, I started developping my Batch pipeline.
+After I decided on how my dashboard would look like, what data transformations to do, and what technologies to use, I started developping my pipelines.
 
 ### Mage-Terraform
 
