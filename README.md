@@ -9,7 +9,7 @@ Dahsboard link: https://lookerstudio.google.com/s/l4pav5Xapvs
 
 For this exercise, I used Kaggle dataset called "Global News Engagement on Social Media" (https://www.kaggle.com/datasets/kanchana1990/global-news-engagement-on-social-media).
 
-As stated the dataset about section: "This comprehensive dataset offers a deep dive into the social media engagement metrics of nearly 4,000 posts from four of the world's leading news channels: CNN, BBC, Al Jazeera, and Reuters. Curated to provide a holistic view of global news interaction on social media, the collection stands out for its meticulous assembly and broad spectrum of content."
+As stated in the dataset about section: "This comprehensive dataset offers a deep dive into the social media engagement metrics of nearly 4,000 posts from four of the world's leading news channels: CNN, BBC, Al Jazeera, and Reuters. Curated to provide a holistic view of global news interaction on social media, the collection stands out for its meticulous assembly and broad spectrum of content."
 
 For more details about the dataset, please to the link shared above.
 
