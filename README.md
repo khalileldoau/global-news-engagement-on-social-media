@@ -10,7 +10,8 @@ As stated the dataset about section: "This comprehensive dataset offers a deep d
 
 For more details about the dataset, please to the link shared above.
 
-For the sake of this project, and for ease of access to this data without using the Kaggle API, I loaded this data to my GitHub repo under "datasets" folder.
+For the sake of this project, and for ease of access to this data without using the Kaggle API, I loaded this data to my GitHub repo under "datasets" folder (https://github.com/khalileldoau/global-news-engagement-on-social-media/tree/main/datasets).
+
 
 
 
