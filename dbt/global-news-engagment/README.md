@@ -1,5 +1,6 @@
 
-![image](https://github.com/khalileldoau/global-news-engagement-on-social-media/assets/79168986/78c06c15-5f45-4145-894b-3d3c8cc05e10)
+![image](https://github.com/khalileldoau/global-news-engagement-on-social-media/assets/79168986/3208e6d2-1367-448f-9c11-6bb5ad4ed588)
+
 
 
 
