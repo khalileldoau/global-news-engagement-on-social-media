@@ -13,8 +13,9 @@ with words_array as (
     from words_array, unnest(words) as word
 )--,
 --filtered_words as (
-    select word_id, l.*, frequency
+    select word_id, l.*
     from words l
     inner join {{ ref('stg_words_frequency') }} r
     on l.word = r.words
+    where word not in (select * from {{ ref('stg_stopwords') }})
 --)

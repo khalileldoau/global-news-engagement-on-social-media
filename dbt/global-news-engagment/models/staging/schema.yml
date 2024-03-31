@@ -9,3 +9,4 @@ sources:
     tables:
       - name: news_dataset
       - name: words_frequency 
+      - name: stopwords
