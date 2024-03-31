@@ -36,7 +36,7 @@ I started developing and testing the pipleines I needed in Mage locally. I devel
 
   I used this pipeline to load both datasets: "news_dataset" and "words_frequency" from GCS to BQ.
 
-After checking the pipelines are running properly, I deployed the pipelines in GCP using Terraform: https://github.com/khalileldoau/global-news-engagement-on-social-media/tree/main/terraform
+After checking the pipelines are running properly, I deployed the pipelines in GCP using Terraform: https://github.com/khalileldoau/global-news-engagement-on-social-media/tree/main/terraform.
 I shceduled the piplines to run daily.
 
 
