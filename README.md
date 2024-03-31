@@ -15,7 +15,7 @@ For more details about the dataset, please to the link shared above.
 For the sake of this project, and for ease of access to this data without using the Kaggle API, I loaded this data to my GitHub repo under "datasets" folder (https://github.com/khalileldoau/global-news-engagement-on-social-media/tree/main/datasets).
 
 
-### ETL
+### Data exploration
 
 I started the porject with a small data exploration exercise locally in Jupyter Notebook: https://github.com/khalileldoau/global-news-engagement-on-social-media/blob/main/datasets-exploration/data-exploration.ipynb
 
