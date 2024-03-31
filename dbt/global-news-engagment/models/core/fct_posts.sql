@@ -13,7 +13,7 @@ with words_array as (
     from words_array, unnest(words) as word
 )--,
 --filtered_words as (
-    select word_id, l.*, 
+    select word_id, l.*, frequency
     from words l
     inner join {{ ref('dim_words') }} r
     on l.word = r.word
