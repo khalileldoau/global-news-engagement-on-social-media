@@ -17,7 +17,24 @@ For the sake of this project, and for ease of access to this data without using 
 
 ### ETL
 
-I started the porject with a small data exploration exercise locally in Jupyter Notebook. After I decided on how my dashboard would look like, what data I need, and data transformations to do, I 
+I started the porject with a small data exploration exercise locally in Jupyter Notebook: https://github.com/khalileldoau/global-news-engagement-on-social-media/blob/main/datasets-exploration/data-exploration.ipynb
+
+After I decided on how my dashboard would look like and what data transformations to do, what technologies to use, I started developping my Batch pipeline.
+
+### Mage-Terraform
+
+I started developing the pipleines I needed in Mage locally. I develloped two pipelines:
+- load_to_gcs pipeline: https://github.com/khalileldoau/global-news-engagement-on-social-media/tree/main/mage/load_to_gcs
+
+  I used this pipline to, first, load the original dataset, named "news_dataset", to GCS, and, second, create a new dataset, named "words_frequency", then load it to GCS as well.
+
+  I created the wors_frquency dataset from the corpus of all text in the datasets, after filtiring out stopwords and punction using NLTK datasets. However, I acknowldge that news_frequency dataset   
+  requires more filtering, which I didn't proritize for this project given the limited time.
+
+  
+
+  
+
 
 
 
