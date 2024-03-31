@@ -15,6 +15,6 @@ with words_array as (
 --filtered_words as (
     select word_id, l.*, frequency
     from words l
-    inner join {{ ref('dim_words') }} r
-    on l.word = r.word
+    inner join {{ ref('stg_words_frequency') }} r
+    on l.word = r.words
 --)
