@@ -28,7 +28,7 @@ I started developing and testing the pipleines I needed in Mage locally. I devel
 
   I used this pipline to, first, load the original datsets, named "news_dataset" after concatenation, to GCS, and, second, create a new dataset, named "words_frequency", then load it to GCS as well.
 
-  I created the wors_frquency dataset from the corpus of all text in the datasets, after filtiring out stopwords and punction using NLTK datasets. However, the dataset   
+  I created the words_frquency dataset from the corpus of all text in the datasets, after filtiring out stopwords and punction using NLTK datasets. However, the dataset   
   requires more curation which I couldn't prioritize given limited time.
 
 
