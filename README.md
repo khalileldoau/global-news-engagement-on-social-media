@@ -63,8 +63,7 @@ Finally, I vizualized the data with looker, using the data from the "fct_posts" 
 
 Dahsboard link: https://lookerstudio.google.com/s/l4pav5Xapvs
 
-As I said earlier, the dashboard can be used to search for news containing specific keywords, see the top posts by engagment, how many posts are made by each channel on a sepcific topic, filter news by specific channel, and see to the most frequent words used when filtering by a specific topic.
-
+As I said earlier, using the dashboard, you can search for news containing specific keywords, read the top posts by engagment for the searched keyword, see the most frequent words used while reporting on the searched keyword, see how many posts are made by each channel using the serchead keyword, and the engagement with each channel. 
 
 
 
