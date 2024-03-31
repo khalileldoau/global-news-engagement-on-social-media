@@ -23,13 +23,31 @@ After I decided on how my dashboard would look like and what data transformation
 
 ### Mage-Terraform
 
-I started developing the pipleines I needed in Mage locally. I develloped two pipelines:
+I started developing and testing the pipleines I needed in Mage locally. I develloped two pipelines (Batch pipelines):
 - load_to_gcs pipeline: https://github.com/khalileldoau/global-news-engagement-on-social-media/tree/main/mage/load_to_gcs
 
-  I used this pipline to, first, load the original dataset, named "news_dataset", to GCS, and, second, create a new dataset, named "words_frequency", then load it to GCS as well.
+  I used this pipline to, first, load the original datsets, named "news_dataset" after concatenation, to GCS, and, second, create a new dataset, named "words_frequency", then load it to GCS as well.
 
   I created the wors_frquency dataset from the corpus of all text in the datasets, after filtiring out stopwords and punction using NLTK datasets. However, the dataset   
   requires more curation which I couldn't prioritize given limited time.
+
+
+- gcs_to_bq pipeline: https://github.com/khalileldoau/global-news-engagement-on-social-media/tree/main/mage/gcs_to_bq
+
+  I used this pipeline to read both datasets: "news_dataset" and "words_frequency" from GCS to BQ.
+
+After checking the pipelines are running properly, I deployed the pipelines in GCP using Terraform: https://github.com/khalileldoau/global-news-engagement-on-social-media/tree/main/terraform
+I shceduled the piplines to run daily.
+
+
+### dbt
+
+After I scheduled the piplines to load the data daily to BQ, I started doing further modeling of the data warehouse using dbt cloud: https://github.com/khalileldoau/global-news-engagement-on-social-media/tree/main/dbt
+
+![image](https://github.com/khalileldoau/global-news-engagement-on-social-media/assets/79168986/be671c7b-85fa-4c34-82f0-480b6c4a84f4)
+
+
+  
 
   
 
