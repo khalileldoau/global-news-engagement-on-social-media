@@ -1,6 +1,6 @@
 # global-news-engagement-on-social-media
 
-The objective of this porject is to build a dashboard that shows the engagement of people with news shared by major news channel, on social media. Using the dashboard, the user can search for news containing specific keywords and see the top posts by engagment, how many posts are made by each channel on this topic, in addition to the most frequent words used when discussing these topics.
+The objective of this porject is to build a dashboard that shows the engagement of people with news shared by major news channel, on social media. Using the dashboard, you can search for news containing specific keywords, read the top posts by engagment for the searched keyword, see the most frequent words used while reporting on the searched keyword, see how many posts are made by each channel using the serchead keyword and the engagement with each channel. 
 
 Dahsboard link: https://lookerstudio.google.com/s/l4pav5Xapvs
 
