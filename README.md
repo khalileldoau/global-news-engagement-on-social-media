@@ -11,7 +11,7 @@ For this exercise, I used Kaggle dataset called "Global News Engagement on Socia
 
 As stated in the dataset about section: "This comprehensive dataset offers a deep dive into the social media engagement metrics of nearly 4,000 posts from four of the world's leading news channels: CNN, BBC, Al Jazeera, and Reuters. Curated to provide a holistic view of global news interaction on social media, the collection stands out for its meticulous assembly and broad spectrum of content."
 
-For more details about the dataset, please to the link shared above.
+For more details about the dataset, please refere to the link shared above.
 
 For the sake of this project, and for ease of access to this data without using the Kaggle API, I loaded this data to my GitHub repo under "datasets" folder (https://github.com/khalileldoau/global-news-engagement-on-social-media/tree/main/datasets).
 
