@@ -44,6 +44,8 @@ I shceduled the piplines to run daily.
 
 After I scheduled the piplines to load the data daily to BQ, I started doing further modeling of the data warehouse using dbt cloud: https://github.com/khalileldoau/global-news-engagement-on-social-media/tree/main/dbt
 
+I scheduled the job to run daily in production in dbt cloud. 
+
 The core tables are:
 - dim_words
 - dim_channels
