@@ -50,7 +50,8 @@ The core tables are:
 - dim_channels
 - fct_posts
 
-![image](https://github.com/khalileldoau/global-news-engagement-on-social-media/assets/79168986/be671c7b-85fa-4c34-82f0-480b6c4a84f4)
+![image](https://github.com/khalileldoau/global-news-engagement-on-social-media/assets/79168986/f4e03eed-cc4b-4e5c-b6c6-6edab927ca56)
+
 
 
 
