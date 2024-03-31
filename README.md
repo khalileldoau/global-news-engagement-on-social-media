@@ -59,7 +59,7 @@ The core tables are:
 
 ### Looker
 
-Finally, I vizualized the data with looker, using the data from the fct_posts tables from the production dataset in BigQuery.
+Finally, I vizualized the data with looker, using the data from the "fct_posts" table from the production dataset in BigQuery.
 
 Dahsboard link: https://lookerstudio.google.com/s/l4pav5Xapvs
 
