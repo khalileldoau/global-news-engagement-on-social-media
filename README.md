@@ -42,7 +42,7 @@ I shceduled the piplines to run daily.
 
 ### dbt
 
-After I scheduled the piplines to load the data daily to BQ, I started doing further modeling of the data warehouse using dbt cloud: https://github.com/khalileldoau/global-news-engagement-on-social-media/tree/main/dbt
+After I scheduled the pipelines to load the data daily to BQ, I started doing further modeling of the data warehouse using dbt cloud: https://github.com/khalileldoau/global-news-engagement-on-social-media/tree/main/dbt
 
 I scheduled the job to run daily in production with dbt cloud. Production data is living in "prod" dataset in BigQuery
 
