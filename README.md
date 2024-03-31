@@ -44,7 +44,7 @@ I shceduled the piplines to run daily.
 
 After I scheduled the piplines to load the data daily to BQ, I started doing further modeling of the data warehouse using dbt cloud: https://github.com/khalileldoau/global-news-engagement-on-social-media/tree/main/dbt
 
-I scheduled the job to run daily in production in dbt cloud. 
+I scheduled the job to run daily in production with dbt cloud. Production data is living in "prod" dataset in BigQuery
 
 The core tables are:
 - dim_words
@@ -52,6 +52,23 @@ The core tables are:
 - fct_posts
 
 ![image](https://github.com/khalileldoau/global-news-engagement-on-social-media/assets/79168986/be671c7b-85fa-4c34-82f0-480b6c4a84f4)
+
+
+
+### Looker
+
+Finally, I vizualized the data with looker, using the data from the fct_posts tables from the production dataset in BigQuery.
+
+Dahsboard link: https://lookerstudio.google.com/s/l4pav5Xapvs
+
+As I said earlier, the dashboard can be used to search for news containing specific keywords, see the top posts by engagment, how many posts are made by each channel on a sepcific topic, filter news by specific channel, and see to the most frequent words used when filtering by a specific topic.
+
+
+
+
+
+
+
 
 
   
