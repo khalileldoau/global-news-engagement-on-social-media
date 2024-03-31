@@ -18,6 +18,7 @@ renamed as (
 )
 
 select * from renamed
+where length(words) >= 2
 
 
 -- dbt build --select <model_name> --vars '{'is_test_run': 'false'}'
